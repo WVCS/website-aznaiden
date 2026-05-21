@@ -18,12 +18,34 @@ h1 {
 	font-family: Times New Roman;
 	}
 nav {
-	color: #ffb703; /* Star Gold */
-  font-size: 1.8rem;
-  font-weight: bold;
-  text-decoration: none;
+  background: #0a0a0a;
+  padding: 20px;
+  border-bottom: 4px solid #ff0055;
   display: flex;
-  align-items: center;
-  gap: 8px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  justify-content: center;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 12px 30px;
+  transition: all 0.2s ease-in-out;
+  background: #1a1a1a;
+  display: block;
+  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  border: 1px solid #333;
 }
