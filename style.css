@@ -49,6 +49,7 @@ a {
   clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
   border: 1px solid #333;
 }
+
 iframe {
   width: 392px;
   height: 620px;
